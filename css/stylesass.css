@@ -632,7 +632,7 @@ thead {
 
 @media (max-width: 576px) {
   body {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   /* Menu de Navegacion */
   .navbar {
