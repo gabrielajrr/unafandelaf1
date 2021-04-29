@@ -1,0 +1,15 @@
+
+# HTID:17347894: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17347894:
+
+
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^home$ index.html [L]
+RewriteRule ^noticiasf1$ noticiasf1.html [L]
+RewriteRule ^articulos$ articulos.html [L]
+RewriteRule ^calendarios$ calendarioss.html [L]
+RewriteRule ^resultados$ temporada2021.html [L]
+RewriteRule ^contacto$ contacto.html [L]
