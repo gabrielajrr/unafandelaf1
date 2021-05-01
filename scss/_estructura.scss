@@ -398,9 +398,9 @@ thead {
 	align-items: center;
 }
 
-.redesSociales1 a img, .redesSociales2 a img  {
-	width: 50px;
-	margin: 20px;
+.redesSociales1 a svg, .redesSociales2 a svg {
+	margin: 0 20px 0 20px;
+    width: 45px;
 }
 
 .icono {
@@ -554,11 +554,10 @@ thead {
 
     /* Footer */
 
-    .redesSociales1 a img, .redesSociales2 a img  {
-        display: block;
-		width: 30px;
-		margin: 10px;
-	}
+    .redesSociales1 a svg, .redesSociales2 a svg {
+        margin: 10px 20px 10px 20px;
+        width: 45px;
+    }
 	
 	.icono img {
 		width: $ancho-30;
