@@ -14,9 +14,9 @@ body {
 .anchor {
   display: block;
   height: 130px;
-  /*same height as header*/
+  /* ancho del header y un poco mas*/
   margin-top: -130px;
-  /*same height as header*/
+  /* igual al height */
   visibility: hidden;
 }
 
@@ -171,6 +171,7 @@ p {
 }
 
 .btn-info {
+  margin-bottom: 20px;
   background-color: #3f3f3f;
   border-color: #3f3f3f;
   color: #02bebc;
@@ -437,6 +438,7 @@ thead {
 }
 
 #contacto .contacto .btn-primary {
+  margin-bottom: 20px;
   background-color: #3f3f3f;
   border-color: #3f3f3f;
   color: #02bebc;

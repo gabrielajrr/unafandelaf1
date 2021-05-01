@@ -11,8 +11,8 @@ body {
 /* Solucion para que header no pise secciones */
 .anchor{
     display: block;
-    height: 130px; /*same height as header*/
-    margin-top: -130px; /*same height as header*/
+    height: 130px; /* ancho del header y un poco mas*/
+    margin-top: -130px; /* igual al height */
     visibility: hidden;
   }
 
@@ -143,6 +143,7 @@ p {
 }
 
 @mixin boton {
+    margin-bottom: 20px;
     background-color: $gris-oscuro;
     border-color:$gris-oscuro;
     color: $acuamarina;
