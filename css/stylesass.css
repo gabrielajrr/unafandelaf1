@@ -646,6 +646,14 @@ thead {
   body {
     font-size: 0.85rem;
   }
+  .anchor {
+    display: block;
+    height: 90px;
+    /* ancho del header y un poco mas*/
+    margin-top: -90px;
+    /* igual al height */
+    visibility: hidden;
+  }
   /* Menu de Navegacion */
   .navbar {
     -webkit-box-orient: horizontal;

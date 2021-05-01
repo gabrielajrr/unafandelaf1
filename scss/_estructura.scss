@@ -14,7 +14,7 @@ body {
     height: 130px; /* ancho del header y un poco mas*/
     margin-top: -130px; /* igual al height */
     visibility: hidden;
-  }
+}
 
 /* Menu de Navegacion */
 .navbar {
@@ -502,6 +502,13 @@ thead {
 @media (max-width: 576px) { 
     body {
         font-size: $font-576;
+    }
+
+    .anchor{
+        display: block;
+        height: 90px; /* ancho del header y un poco mas*/
+        margin-top: -90px; /* igual al height */
+        visibility: hidden;
     }
 
     /* Menu de Navegacion */
