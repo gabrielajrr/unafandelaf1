@@ -10,6 +10,16 @@ body {
   font-weight: 400;
 }
 
+/* Solucion para que header no pise secciones */
+.anchor {
+  display: block;
+  height: 130px;
+  /*same height as header*/
+  margin-top: -130px;
+  /*same height as header*/
+  visibility: hidden;
+}
+
 /* Menu de Navegacion */
 .navbar {
   width: 100%;
