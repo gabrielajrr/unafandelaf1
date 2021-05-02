@@ -23,7 +23,6 @@ body {
 /* Menu de Navegacion */
 .navbar {
   width: 100%;
-  background: black;
   background: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(51%, #474747), color-stop(85%, black));
   background: linear-gradient(90deg, black 15%, #474747 51%, black 85%);
   border-bottom: 4px #f26cd1 solid;
@@ -708,6 +707,8 @@ thead {
   }
   /* Footer */
   .redesSociales1 a svg, .redesSociales2 a svg {
+    display: block;
+    text-align: center;
     margin: 10px 20px 10px 20px;
     width: 45px;
   }

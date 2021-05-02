@@ -19,7 +19,6 @@ body {
 /* Menu de Navegacion */
 .navbar {
 	width: $ancho-100;
-	background: $negro;
 	background: $gradiente;
 	border-bottom: 4px $rosa solid;
     #navbarNav .nav-item .nav-link {
@@ -562,6 +561,8 @@ thead {
     /* Footer */
 
     .redesSociales1 a svg, .redesSociales2 a svg {
+        display: block;
+        text-align: center;
         margin: 10px 20px 10px 20px;
         width: 45px;
     }

@@ -27,6 +27,8 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/stylesass.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     </head>
 
     <body>
@@ -88,8 +90,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-md-8 col-lg-9">
-                        <div class="sobreMi">
-                            <span class="anchor" id="sobreMi"></span>
+                        <div class="sobreMi wow animate__animated animate__fadeInLeft"">
+                            <span id="sobreMi" class="anchor"></span>
                             <h1>Sobre mi</h1>
                             <p class="text-justify">¡Hola! Soy Gabriela y soy Ingeniero Mecánico aficionada a la F1. En este Sitio Web encontrarás información básica, noticias, calendario y resultados de la temporada actualizados. Aunque no soy experta en el tema técnico de los deportes a motor, también encontrarás mis opiniones y muchas veces mis celebraciones o sufrimientos por Ferrari (ja ja ja), pero no se crean, también apoyo otros equipos y pilotos.</p>
                             <p>En fin, soy simplemente <span>"Una fan de la F1"</span></p>
@@ -209,5 +211,19 @@
         <!-- Javascript -->
         <script src="js/jquery-3.5.1.slim.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script type="text/javascript">
+            wow = new WOW(
+                {
+                    boxClass:     'wow',      // default
+                    animateClass: 'animated', // default
+                    offset:       200,          // default
+                    mobile:       true,       // default
+                    live:         true        // default
+                }
+            )
+            wow.init();
+        </script>
+        
     </body>
 </html>
