@@ -576,3 +576,15 @@ thead {
     }
 }
 
+@media (max-width: 320px) { 
+    body {
+        font-size: $font-576;
+    }
+
+    .anchor{
+        display: block;
+        height: 70px; /* ancho del header y un poco mas*/
+        margin-top: -70px; /* igual al height */
+        visibility: hidden;
+    }
+}
