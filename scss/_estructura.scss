@@ -397,9 +397,12 @@ thead {
 	align-items: center;
 }
 
-.redesSociales1 a svg, .redesSociales2 a svg {
-	margin: 0 20px 0 20px;
-    width: 45px;
+.redesSociales1 a, .redesSociales2 a {
+    text-decoration: none;
+    svg {
+        margin: 0 20px 0 20px;
+        width: 45px;
+    }
 }
 
 .icono {
