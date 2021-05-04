@@ -432,11 +432,19 @@ thead {
     body {
         font-size: 1rem;
     }
+    .anchor {
+        height: 64px; /* ancho del header y un poco mas*/
+        margin-top: -64px; /* igual al height */
+    }
 }
 
 @media (max-width: 768px) { 
     body {
         font-size: $font-768;
+    }
+    .anchor {
+        height: 83px; /* ancho del header y un poco mas*/
+        margin-top: -83px; /* igual al height */
     }
 
     /* Menu de Navegacion */
@@ -505,10 +513,9 @@ thead {
     body {
         font-size: $font-576;
     }
-
     .anchor{
-        height: 90px; /* ancho del header y un poco mas*/
-        margin-top: -90px; /* igual al height */
+        height: 85px; /* ancho del header y un poco mas*/
+        margin-top: -85px; /* igual al height */
     }
 
     /* Menu de Navegacion */
@@ -581,7 +588,6 @@ thead {
     body {
         font-size: $font-576;
     }
-
     .anchor{
         height: 60px; /* ancho del header y un poco mas*/
         margin-top: -60px; /* igual al height */
