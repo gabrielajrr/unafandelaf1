@@ -507,10 +507,8 @@ thead {
     }
 
     .anchor{
-        display: block;
         height: 90px; /* ancho del header y un poco mas*/
         margin-top: -90px; /* igual al height */
-        visibility: hidden;
     }
 
     /* Menu de Navegacion */
@@ -585,9 +583,7 @@ thead {
     }
 
     .anchor{
-        display: block;
-        height: 70px; /* ancho del header y un poco mas*/
-        margin-top: -70px; /* igual al height */
-        visibility: hidden;
+        height: 60px; /* ancho del header y un poco mas*/
+        margin-top: -60px; /* igual al height */
     }
 }
