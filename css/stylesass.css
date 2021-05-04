@@ -577,9 +577,9 @@ thead {
     font-size: 1rem;
   }
   .anchor {
-    height: 64px;
+    height: 70px;
     /* ancho del header y un poco mas*/
-    margin-top: -64px;
+    margin-top: -70px;
     /* igual al height */
   }
 }
@@ -589,9 +589,9 @@ thead {
     font-size: 1rem;
   }
   .anchor {
-    height: 83px;
+    height: 88px;
     /* ancho del header y un poco mas*/
-    margin-top: -83px;
+    margin-top: -88px;
     /* igual al height */
   }
   /* Menu de Navegacion */
@@ -662,9 +662,9 @@ thead {
     font-size: 0.85rem;
   }
   .anchor {
-    height: 85px;
+    height: 90px;
     /* ancho del header y un poco mas*/
-    margin-top: -85px;
+    margin-top: -90px;
     /* igual al height */
   }
   /* Menu de Navegacion */
@@ -739,9 +739,9 @@ thead {
     font-size: 0.85rem;
   }
   .anchor {
-    height: 60px;
+    height: 55px;
     /* ancho del header y un poco mas*/
-    margin-top: -60px;
+    margin-top: -55px;
     /* igual al height */
   }
 }
