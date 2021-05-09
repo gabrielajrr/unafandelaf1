@@ -114,6 +114,10 @@ body {
   letter-spacing: 0.2rem;
 }
 
+#banner .card-img {
+  height: 100vh;
+}
+
 /* Cuerpo de los HTML */
 h1, h2, h3 {
   color: #f26cd1;
