@@ -146,29 +146,36 @@ p {
   font-weight: 700;
 }
 
-.card {
+.indexNoticiasArticulos {
   background-color: black;
 }
 
-.card .card-title {
+.indexNoticiasArticulos .card-img-top:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+}
+
+.indexNoticiasArticulos .card-title {
   color: #f26cd1;
   font-weight: 700;
 }
 
-.card .card-title:hover {
+.indexNoticiasArticulos .card-title:hover {
   color: #3f3f3f;
 }
 
-.card .autor {
+.indexNoticiasArticulos .autor {
   font-size: 0.9rem;
 }
 
-.card .card-body .card-text a {
+.indexNoticiasArticulos .card-body .card-text a {
   color: #02bebc;
   font-weight: 700;
 }
 
-.card .card-body .card-text a:hover {
+.indexNoticiasArticulos .card-body .card-text a:hover {
   color: #3f3f3f;
 }
 
