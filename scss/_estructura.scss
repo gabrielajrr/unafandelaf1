@@ -215,7 +215,7 @@ p {
             font-weight: $regular;
         }
         p {
-            margin: 15px;
+            margin: 20px;
         }
         .fotoGdeDer, .fotoGdeIzq {
             width: $ancho-95;
@@ -330,17 +330,18 @@ thead {
 	font-size: $font-tabla;
 	text-align: center;
     td {
-        width: 45px;
+        width: 3%;
         padding: 2px;
         img {
             width: $ancho-80/2;
         }
     }
-    .banderas img  {
+    .banderas {
+        img  {
         width: $ancho-100;
+        }
     }
 }
-
 .pilotosTabla {
     width: $ancho-95;
     .equipo{
@@ -467,6 +468,13 @@ thead {
             height: auto;
         }
     }
+    .textoDer, .textoIzq {
+        .texto {
+            p {
+                margin: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) { 
@@ -499,7 +507,7 @@ thead {
             height: auto;
         }
     }
-
+    
     /* Cuerpo de los HTML */
 
     .textoDer, .textoIzq {
@@ -510,6 +518,9 @@ thead {
             flex-direction: column;
             justify-content: center;
             justify-content: center;
+            p {
+                margin: 15px;
+            }
             .fotoFuenteDer, .fotoFuenteIzq {
                 float:none;
                 width: $ancho-100;
@@ -592,6 +603,9 @@ thead {
             flex-direction: column;
             justify-content: center;
             justify-content: center;
+            p {
+                margin: 15px;
+            }
             .fotoFuenteDer, .fotoFuenteIzq  {
                 float:none;
                 width: $ancho-100;
@@ -666,6 +680,16 @@ thead {
     #banner {
         .card-img {
             height: auto;
+        }
+    }
+
+    /* Cuerpo de los HTML*/
+
+    .textoDer, .textoIzq {
+        .texto {
+            p {
+                margin: 15px;
+            }
         }
     }
 

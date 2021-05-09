@@ -265,7 +265,7 @@ p {
 }
 
 .textoDer .texto p, .textoIzq .texto p {
-  margin: 15px;
+  margin: 20px;
 }
 
 .textoDer .texto .fotoGdeDer, .textoDer .texto .fotoGdeIzq, .textoIzq .texto .fotoGdeDer, .textoIzq .texto .fotoGdeIzq {
@@ -396,7 +396,7 @@ thead {
 }
 
 .pilotosTabla td, .construcTabla td {
-  width: 45px;
+  width: 3%;
   padding: 2px;
 }
 
@@ -608,6 +608,9 @@ thead {
   #banner .card-img {
     height: auto;
   }
+  .textoDer .texto p, .textoIzq .texto p {
+    margin: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -656,6 +659,9 @@ thead {
         -ms-flex-pack: center;
             justify-content: center;
     justify-content: center;
+  }
+  .textoDer .texto p, .textoIzq .texto p {
+    margin: 15px;
   }
   .textoDer .texto .fotoFuenteDer, .textoDer .texto .fotoFuenteIzq, .textoIzq .texto .fotoFuenteDer, .textoIzq .texto .fotoFuenteIzq {
     float: none;
@@ -737,6 +743,9 @@ thead {
             justify-content: center;
     justify-content: center;
   }
+  .textoDer .texto p, .textoIzq .texto p {
+    margin: 15px;
+  }
   .textoDer .texto .fotoFuenteDer, .textoDer .texto .fotoFuenteIzq, .textoIzq .texto .fotoFuenteDer, .textoIzq .texto .fotoFuenteIzq {
     float: none;
     width: 100%;
@@ -796,6 +805,10 @@ thead {
   /* Banner */
   #banner .card-img {
     height: auto;
+  }
+  /* Cuerpo de los HTML*/
+  .textoDer .texto p, .textoIzq .texto p {
+    margin: 15px;
   }
   /* Tablas */
   .calendarioTabla img {
