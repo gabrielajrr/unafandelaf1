@@ -23,7 +23,7 @@ body {
 /* Menu de Navegacion */
 .navbar {
   width: 100%;
-  background: rgba(0, 0, 0, 0.95) !important;
+  background: rgba(0, 0, 0, 0.9) !important;
   border-bottom: 4px #f26cd1 solid;
 }
 
@@ -481,7 +481,7 @@ thead {
 #grillaFooter {
   width: 100%;
   background: black;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.9);
   border-top: 4px #f26cd1 solid;
   border-bottom: 4px #f26cd1 solid;
   display: -ms-grid;
@@ -762,8 +762,22 @@ thead {
     margin-top: -50px;
     /* igual al height */
   }
+  /* Banner */
   #banner .card-img {
     height: auto;
+  }
+  /* Footer */
+  .redesSociales1 a svg, .redesSociales2 a svg {
+    display: block;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    width: 45px;
+  }
+  .icono img {
+    width: 30%;
+  }
+  .icono p {
+    font-size: 0.5rem;
   }
 }
 /*# sourceMappingURL=stylesass.css.map */

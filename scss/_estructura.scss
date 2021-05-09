@@ -9,6 +9,7 @@ body {
 }
 
 /* Solucion para que header no pise secciones */
+
 .anchor{
     display: block;
     height: 130px; /* ancho del header y un poco mas*/
@@ -284,6 +285,7 @@ p {
 }
 
 /* Tablas */
+
 thead {
 	color: $acuamarina;
 	font-weight: $bold;
@@ -621,9 +623,29 @@ thead {
         height: 50px; /* ancho del header y un poco mas*/
         margin-top: -50px; /* igual al height */
     }
+
+    /* Banner */
+
     #banner {
         .card-img {
             height: auto;
         }
+    }
+
+    /* Footer */
+
+    .redesSociales1 a svg, .redesSociales2 a svg {
+        display: block;
+        text-align: center;
+        margin: 10px 20px 10px 20px;
+        width: 45px;
+    }
+	
+	.icono img {
+		width: $ancho-30;
+	}
+
+    .icono p {
+        font-size: 0.5rem;
     }
 }
