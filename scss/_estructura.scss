@@ -19,7 +19,7 @@ body {
 /* Menu de Navegacion */
 .navbar {
 	width: $ancho-100;
-	background: $gradiente;
+	background: $back-navbar-footer !important;
 	border-bottom: 4px $rosa solid;
     #navbarNav .nav-item .nav-link {
         color: $rosa;
@@ -346,9 +346,11 @@ thead {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        h3 {
+            padding-bottom: 20px;
+        }
         .fotoContacto img {
             width: $ancho-100;
-            margin-bottom: 100px;
             opacity: 0.5;
         }
         textarea {
@@ -368,7 +370,7 @@ thead {
 #grillaFooter {
 	width: $ancho-100;
 	background: $negro;
-	background: $gradiente;
+	background: $back-navbar-footer;
 	border-top: 4px $rosa solid;
 	border-bottom: 4px $rosa solid;
     display: grid;
@@ -439,6 +441,11 @@ thead {
         height: 80px; /* ancho del header y un poco mas*/
         margin-top: -80px; /* igual al height */
     }
+    #banner {
+        .card-img {
+            height: auto;
+        }
+    }
 }
 
 @media (max-width: 768px) { 
@@ -461,6 +468,14 @@ thead {
         }
         .btn {
             padding-left: 0.5rem;
+        }
+    }
+
+    /* Banner */
+    
+    #banner {
+        .card-img {
+            height: auto;
         }
     }
 
@@ -538,6 +553,14 @@ thead {
         }
     }
 
+    /* Banner */
+
+    #banner {
+        .card-img {
+            height: auto;
+        }
+    }
+
     /* Cuerpo de los HTML */
 
     .textoDer, .textoIzq {
@@ -594,5 +617,10 @@ thead {
     .anchor{
         height: 50px; /* ancho del header y un poco mas*/
         margin-top: -50px; /* igual al height */
+    }
+    #banner {
+        .card-img {
+            height: auto;
+        }
     }
 }

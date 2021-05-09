@@ -23,8 +23,7 @@ body {
 /* Menu de Navegacion */
 .navbar {
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(51%, #474747), color-stop(85%, black));
-  background: linear-gradient(90deg, black 15%, #474747 51%, black 85%);
+  background: rgba(0, 0, 0, 0.95) !important;
   border-bottom: 4px #f26cd1 solid;
 }
 
@@ -430,9 +429,12 @@ thead {
           align-items: center;
 }
 
+#contacto .contacto h3 {
+  padding-bottom: 20px;
+}
+
 #contacto .contacto .fotoContacto img {
   width: 100%;
-  margin-bottom: 100px;
   opacity: 0.5;
 }
 
@@ -477,8 +479,7 @@ thead {
 #grillaFooter {
   width: 100%;
   background: black;
-  background: -webkit-gradient(linear, left top, right top, color-stop(15%, black), color-stop(51%, #474747), color-stop(85%, black));
-  background: linear-gradient(90deg, black 15%, #474747 51%, black 85%);
+  background: rgba(0, 0, 0, 0.95);
   border-top: 4px #f26cd1 solid;
   border-bottom: 4px #f26cd1 solid;
   display: -ms-grid;
@@ -586,6 +587,9 @@ thead {
     margin-top: -80px;
     /* igual al height */
   }
+  #banner .card-img {
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -612,6 +616,10 @@ thead {
   }
   .navbar .btn {
     padding-left: 0.5rem;
+  }
+  /* Banner */
+  #banner .card-img {
+    height: auto;
   }
   /* Cuerpo de los HTML */
   .textoDer, .textoIzq {
@@ -689,6 +697,10 @@ thead {
   .navbar a img {
     width: 70% !important;
   }
+  /* Banner */
+  #banner .card-img {
+    height: auto;
+  }
   /* Cuerpo de los HTML */
   .textoDer, .textoIzq {
     padding-right: 40px;
@@ -747,6 +759,9 @@ thead {
     /* ancho del header y un poco mas*/
     margin-top: -50px;
     /* igual al height */
+  }
+  #banner .card-img {
+    height: auto;
   }
 }
 /*# sourceMappingURL=stylesass.css.map */
