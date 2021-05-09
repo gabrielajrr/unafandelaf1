@@ -377,7 +377,7 @@ thead {
 
 .calendarioTabla tr .band {
   width: 10%;
-  padding: 2%;
+  padding: 1%;
 }
 
 .calendarioTabla tr .fecha {
@@ -753,6 +753,21 @@ thead {
   .calendarioTabla, .pilotosTabla, .construcTabla {
     font-size: 0.8rem;
   }
+  .calendarioTabla img {
+    width: 30px;
+  }
+  .calendarioTabla tr .item {
+    width: 5%;
+    padding: 1%;
+  }
+  .calendarioTabla tr .band {
+    width: 20%;
+    padding: 1%;
+  }
+  .calendarioTabla tr .fecha {
+    width: 10%;
+    padding: 2%;
+  }
   /* Footer */
   .redesSociales1 a svg, .redesSociales2 a svg {
     display: block;
@@ -781,6 +796,22 @@ thead {
   /* Banner */
   #banner .card-img {
     height: auto;
+  }
+  /* Tablas */
+  .calendarioTabla img {
+    width: 30px;
+  }
+  .calendarioTabla tr .item {
+    width: 5%;
+    padding: 1%;
+  }
+  .calendarioTabla tr .band {
+    width: 20%;
+    padding: 1%;
+  }
+  .calendarioTabla tr .fecha {
+    width: 10%;
+    padding: 2%;
   }
   /* Footer */
   .redesSociales1 a svg, .redesSociales2 a svg {

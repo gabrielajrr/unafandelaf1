@@ -312,7 +312,7 @@ thead {
         }
         .band {
             width: 10%;
-            padding: 2%;
+            padding: 1%;
         }
         .fecha {
             width: 30%;
@@ -613,6 +613,27 @@ thead {
         font-size: $font-tabla-peq;
     }
 
+    .calendarioTabla {
+        img {
+             width: 30px;
+         }
+         tr {
+             .item {
+                 width: 5%;
+                 padding: 1%;
+     
+             }
+             .band {
+                 width: 20%;
+                 padding: 1%;
+             }
+             .fecha {
+                 width: 10%;
+                 padding: 2%;
+             }
+         }
+     }
+
     /* Footer */
 
     .redesSociales1 a svg, .redesSociales2 a svg {
@@ -647,6 +668,29 @@ thead {
             height: auto;
         }
     }
+
+    /* Tablas */
+
+    .calendarioTabla {
+        img {
+             width: 30px;
+         }
+         tr {
+             .item {
+                 width: 5%;
+                 padding: 1%;
+     
+             }
+             .band {
+                 width: 20%;
+                 padding: 1%;
+             }
+             .fecha {
+                 width: 10%;
+                 padding: 2%;
+             }
+         }
+     }
 
     /* Footer */
 
