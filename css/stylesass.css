@@ -605,11 +605,17 @@ thead {
     margin-top: -80px;
     /* igual al height */
   }
+  /* Banner */
   #banner .card-img {
     height: auto;
   }
+  /* Cuerpo de los HTML */
   .textoDer .texto p, .textoIzq .texto p {
     margin: 15px;
+  }
+  /* Formulario */
+  #contacto {
+    padding-top: 65px;
   }
 }
 
@@ -678,6 +684,10 @@ thead {
   /* Tablas */
   .calendarioTabla, .pilotosTabla, .construcTabla {
     font-size: 0.8rem;
+  }
+  /* Formulario */
+  #contacto {
+    padding-top: 83px;
   }
   /* Footer */
   .redesSociales1 a img, .redesSociales2 a img {
@@ -777,6 +787,10 @@ thead {
     width: 10%;
     padding: 2%;
   }
+  /* Formulario */
+  #contacto {
+    padding-top: 65px;
+  }
   /* Footer */
   .redesSociales1 a svg, .redesSociales2 a svg {
     display: block;
@@ -825,6 +839,10 @@ thead {
   .calendarioTabla tr .fecha {
     width: 10%;
     padding: 2%;
+  }
+  /* Formulario */
+  #contacto {
+    padding-top: 60px;
   }
   /* Footer */
   .redesSociales1 a svg, .redesSociales2 a svg {

@@ -389,6 +389,7 @@ thead {
 }
 
 /* Footer */
+
 #grillaFooter {
 	width: $ancho-100;
 	background: $negro;
@@ -463,11 +464,17 @@ thead {
         height: 80px; /* ancho del header y un poco mas*/
         margin-top: -80px; /* igual al height */
     }
+
+    /* Banner */
+
     #banner {
         .card-img {
             height: auto;
         }
     }
+
+    /* Cuerpo de los HTML */
+
     .textoDer, .textoIzq {
         .texto {
             p {
@@ -475,6 +482,13 @@ thead {
             }
         }
     }
+    
+    /* Formulario */
+
+    #contacto {
+        padding-top: 65px;
+    }
+
 }
 
 @media (max-width: 768px) { 
@@ -540,6 +554,12 @@ thead {
 
     .calendarioTabla, .pilotosTabla, .construcTabla {
         font-size: $font-tabla-peq;
+    }
+
+    /* Formulario */
+
+    #contacto {
+        padding-top: 83px;
     }
 
     /* Footer */
@@ -648,6 +668,12 @@ thead {
          }
      }
 
+     /* Formulario */
+
+    #contacto {
+        padding-top: 65px;
+    }
+
     /* Footer */
 
     .redesSociales1 a svg, .redesSociales2 a svg {
@@ -715,6 +741,13 @@ thead {
              }
          }
      }
+
+     /* Formulario */
+
+    #contacto {
+        padding-top: 60px;
+    }
+
 
     /* Footer */
 
