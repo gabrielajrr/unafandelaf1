@@ -344,14 +344,17 @@ thead {
     .contacto {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         h3 {
             padding-bottom: 20px;
         }
         .fotoContacto img {
             width: $ancho-100;
-            opacity: 0.5;
+            opacity: .8;
+            border: 5px $rosa solid;
+            border-radius: 20%;
+            background-color: $gris-oscuro
         }
         textarea {
             resize: none;
@@ -472,7 +475,7 @@ thead {
     }
 
     /* Banner */
-    
+
     #banner {
         .card-img {
             height: auto;
