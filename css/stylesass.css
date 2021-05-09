@@ -105,6 +105,7 @@ body {
   margin-top: 25%;
   padding: 0.3em;
   color: #f26cd1;
+  font-weight: 700;
   background-color: #3f3f3f;
   border-color: #3f3f3f;
   -webkit-box-shadow: 0 0 20px 0 #02bebc;
@@ -749,6 +750,9 @@ thead {
   #banner .card-img {
     height: auto;
   }
+  #banner .card-title {
+    margin-top: 40%;
+  }
   /* Cuerpo de los HTML */
   .textoDer, .textoIzq {
     padding-right: 40px;
@@ -833,6 +837,9 @@ thead {
   /* Banner */
   #banner .card-img {
     height: auto;
+  }
+  #banner .card-title {
+    margin-top: 40%;
   }
   /* Cuerpo de los HTML*/
   .textoDer .texto p, .textoIzq .texto p {

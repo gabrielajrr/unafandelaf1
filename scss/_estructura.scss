@@ -84,6 +84,7 @@ body {
         margin-top: 25%;
         padding: 0.3em;
         color: $rosa;
+        font-weight: $bold;
         background-color: $gris-oscuro;
         border-color: $gris-oscuro;
         box-shadow: 0 0 20px 0 $acuamarina;
@@ -625,6 +626,9 @@ thead {
         .card-img {
             height: auto;
         }
+        .card-title {
+            margin-top: 40%;
+        }
     }
 
     /* Cuerpo de los HTML */
@@ -720,6 +724,9 @@ thead {
     #banner {
         .card-img {
             height: auto;
+        }
+        .card-title {
+            margin-top: 40%;
         }
     }
 
