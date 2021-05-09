@@ -361,12 +361,28 @@ thead {
   background-color: #242222;
   border: 3px solid #3f3f3f;
   margin: 20px;
+  padding: 20px;
   font-size: 1rem;
   text-align: center;
 }
 
 .calendarioTabla img {
-  width: 50%;
+  width: 100%;
+}
+
+.calendarioTabla tr .item {
+  width: 5%;
+  padding: 1%;
+}
+
+.calendarioTabla tr .band {
+  width: 10%;
+  padding: 2%;
+}
+
+.calendarioTabla tr .fecha {
+  width: 30%;
+  padding: 2%;
 }
 
 .pilotosTabla, .construcTabla {
