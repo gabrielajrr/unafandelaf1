@@ -566,6 +566,14 @@ thead {
   width: 45px;
 }
 
+.redesSociales1 a svg:hover, .redesSociales2 a svg:hover {
+  fill: #f26cd1;
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 .icono {
   -ms-grid-row: 1;
   -ms-grid-column: 2;

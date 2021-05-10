@@ -435,6 +435,11 @@ thead {
     svg {
         margin: 0 20px 0 20px;
         width: 45px;
+        &:hover{
+            fill: $rosa;
+            animation: pulse;
+            animation-duration: 1s;
+        }
     }
 }
 
