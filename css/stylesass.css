@@ -458,6 +458,7 @@ thead {
 
 #contacto .contacto .fotoContacto img {
   width: 100%;
+  margin-top: 50px;
   opacity: .8;
   border: 5px #f26cd1 solid;
   border-radius: 20%;
