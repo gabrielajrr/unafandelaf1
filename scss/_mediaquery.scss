@@ -1,0 +1,338 @@
+/* Media Queries */
+
+@media (max-width: 1200px){
+    /* Banner */
+    
+    #banner {
+        .card-img {
+            height: auto;
+        }
+    }
+
+    /*
+    .banner, .bannerNoticiasF1, .bannerArticulos, .bannerCalendarios, .bannerResultados {
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+	    background-position: center;
+    
+    }
+    */
+}
+
+@media (max-width: 992px) { 
+    body {
+        font-size: 1rem;
+    }
+    .anchor {
+        height: 80px; /* ancho del header y un poco mas*/
+        margin-top: -80px; /* igual al height */
+    }
+
+    /* Banner */
+
+    #banner {
+        .card-img {
+            height: auto;
+        }
+    }
+
+    /* Cuerpo de los HTML */
+
+    .textoDer, .textoIzq {
+        .texto {
+            p {
+                margin: 15px;
+            }
+        }
+    }
+    
+    /* Formulario */
+
+    #contacto {
+        padding-top: 65px;
+    }
+
+}
+
+@media (max-width: 768px) { 
+    body {
+        font-size: $font-768;
+    }
+    .anchor {
+        height: 93px; /* ancho del header y un poco mas*/
+        margin-top: -93px; /* igual al height */
+    }
+
+    /* Menu de Navegacion */
+    
+    .navbar {
+        flex-direction: row-reverse;
+        .navbar-brand {
+            width: $ancho-100/2;
+            margin-left: auto;
+            text-align: right;
+        }
+        .btn {
+            padding-left: 0.5rem;
+        }
+    }
+
+    /* Banner */
+
+    #banner {
+        .card-img {
+            height: auto;
+        }
+    }
+    
+    /* Cuerpo de los HTML */
+
+    .textoDer, .textoIzq {
+        padding-right: 40px;
+        .texto {
+            width: $ancho-100;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: center;
+            p {
+                margin: 15px;
+            }
+            .fotoFuenteDer, .fotoFuenteIzq {
+                float:none;
+                width: $ancho-100;
+                margin: 0 0 20px 0;
+            }
+            h3 {
+                text-align: center;
+            }
+            .fuenteAutor {
+                text-align: center;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    /* Tablas */
+
+    .calendarioTabla, .pilotosTabla, .construcTabla {
+        font-size: $font-tabla-peq;
+    }
+
+    /* Formulario */
+
+    #contacto {
+        padding-top: 83px;
+    }
+
+    /* Footer */
+
+    .redesSociales1 a img, .redesSociales2 a img  {
+        display: block;
+		width: 30px;
+		margin: 10px;
+	}
+	
+	.icono img {
+		width: $ancho-30;
+	}
+
+    .icono p {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 576px) { 
+    body {
+        font-size: $font-576;
+    }
+    .anchor{
+        height: 98px; /* ancho del header y un poco mas*/
+        margin-top: -98px; /* igual al height */
+    }
+
+    /* Menu de Navegacion */
+
+    .navbar {
+        flex-direction: row-reverse;
+        .navbar-brand {
+            width: $ancho-100/2;
+            margin-left: auto;
+            text-align: right;
+        }
+        .btn {
+            padding-left: 0.5rem;
+        }
+        a img {
+            width: $ancho-70 !important;
+        }
+    }
+
+    /* Banner */
+
+    #banner {
+        .card-img {
+            height: auto;
+        }
+        .card-title {
+            margin-top: 40%;
+        }
+    }
+
+    /* Cuerpo de los HTML */
+
+    .textoDer, .textoIzq {
+        padding-right: 40px;
+        .texto {
+            width: $ancho-100;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: center;
+            p {
+                margin: 15px;
+            }
+            .fotoFuenteDer, .fotoFuenteIzq  {
+                float:none;
+                width: $ancho-100;
+                margin: 0 0 20px 0;
+            }
+            h3 {
+                text-align: center;
+            }
+            .fuenteAutor {
+                text-align: center;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    /* Tablas */
+
+    .calendarioTabla, .pilotosTabla, .construcTabla {
+        font-size: $font-tabla-peq;
+    }
+
+    .calendarioTabla {
+        img {
+             width: 30px;
+         }
+         tr {
+             .item {
+                 width: 5%;
+                 padding: 1%;
+     
+             }
+             .band {
+                 width: 20%;
+                 padding: 1%;
+             }
+             .fecha {
+                 width: 10%;
+                 padding: 2%;
+             }
+         }
+     }
+
+     /* Formulario */
+
+    #contacto {
+        padding-top: 65px;
+    }
+
+    /* Footer */
+
+    .redesSociales1 a svg, .redesSociales2 a svg {
+        display: block;
+        text-align: center;
+        margin: 10px 20px 10px 20px;
+        width: 45px;
+    }
+	
+	.icono img {
+		width: $ancho-30;
+	}
+
+    .icono p {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 320px) { 
+    body {
+        font-size: $font-576;
+    }
+    .anchor{
+        height: 50px; /* ancho del header y un poco mas*/
+        margin-top: -50px; /* igual al height */
+    }
+
+    /* Banner */
+
+    #banner {
+        .card-img {
+            height: auto;
+        }
+        .card-title {
+            margin-top: 40%;
+        }
+    }
+
+    /* Cuerpo de los HTML*/
+
+    .textoDer, .textoIzq {
+        .texto {
+            p {
+                margin: 15px;
+            }
+        }
+    }
+
+    /* Tablas */
+
+    .calendarioTabla {
+        img {
+             width: 30px;
+         }
+         tr {
+             .item {
+                 width: 5%;
+                 padding: 1%;
+     
+             }
+             .band {
+                 width: 20%;
+                 padding: 1%;
+             }
+             .fecha {
+                 width: 10%;
+                 padding: 2%;
+             }
+         }
+     }
+
+     /* Formulario */
+
+    #contacto {
+        padding-top: 60px;
+    }
+
+
+    /* Footer */
+
+    .redesSociales1 a svg, .redesSociales2 a svg {
+        display: block;
+        text-align: center;
+        margin: 10px 20px 10px 20px;
+        width: 45px;
+    }
+	
+	.icono img {
+		width: $ancho-30;
+	}
+
+    .icono p {
+        font-size: 0.5rem;
+    }
+}
