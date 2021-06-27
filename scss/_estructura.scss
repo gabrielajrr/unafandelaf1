@@ -2,32 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
-  background-color: $negro;
-  font-family: $font;
-  color: $gris-claro;
-  font-weight: $regular;
+    background-color: $negro;
+    font-family: $font;
+    color: $gris-claro;
+    font-weight: $regular;
 }
 
 /* Solucion para que header no pise secciones */
 
-.anchor{
+.anchor {
     display: block;
-    height: 130px; /* ancho del header y un poco mas*/
-    margin-top: -130px; /* igual al height */
+    height: 130px;
+    /* ancho del header y un poco mas*/
+    margin-top: -130px;
+    /* igual al height */
     visibility: hidden;
 }
 
 /* Menu de Navegacion */
 .navbar {
-	width: $ancho-100;
-	background: $back-navbar-footer !important;
-	border-bottom: 4px $rosa solid;
+    width: $ancho-100;
+    background: $back-navbar-footer !important;
+    border-bottom: 4px $rosa solid;
+
     #navbarNav .nav-item .nav-link {
         color: $rosa;
         text-transform: uppercase;
         font-size: $font-nav;
         font-weight: $bold;
     }
+
     .nav-link:hover {
         transform: scale(1.1);
         background-color: $negro;
@@ -36,8 +40,10 @@ body {
         text-align: center;
         transition: all 250ms ease-out;
     }
+
     .dropdown {
         padding-top: .15rem;
+
         #dropdownMenuButton {
             background-color: $transparente;
             border: 0;
@@ -45,29 +51,34 @@ body {
             text-transform: $mayuscula;
             font-size: $font-nav;
             font-weight: $bold;
-                &:hover {
-                    transform: scale(1.1);
-                    background-color: $negro;
-                    border-radius: .5em;
-                    box-shadow: 0 0 10px 0 $acuamarina;
-                    text-align: center;
-                    transition: all 250ms ease-out;
-                }
-                &:focus{
-                    border: 0 !important;
-                }
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: $negro;
+                border-radius: .5em;
+                box-shadow: 0 0 10px 0 $acuamarina;
+                text-align: center;
+                transition: all 250ms ease-out;
+            }
+
+            &:focus {
+                border: 0 !important;
+            }
         }
+
         .dropdown-menu {
             background-color: $negro;
+
             .dropdown-item {
                 color: $rosa;
                 text-transform: $mayuscula;
                 font-size: $font-nav;
                 font-weight: bold;
-                    &:hover {
-                        background-color: $negro;
-                        color: $acuamarina;
-                    }
+
+                &:hover {
+                    background-color: $negro;
+                    color: $acuamarina;
+                }
             }
         }
     }
@@ -77,9 +88,11 @@ body {
 
 #banner {
     border-bottom: 4px $rosa solid;
+
     .card {
         border: 0;
     }
+
     .card-title {
         display: inline-block;
         margin-top: 25%;
@@ -92,6 +105,7 @@ body {
         text-transform: $mayuscula;
         letter-spacing: 0.2rem;
     }
+
     .card-img {
         height: 100vh;
     }
@@ -155,8 +169,10 @@ body {
 */
 
 /* Cuerpo de los HTML */
-h1, h2, h3 {
-	color: $rosa;
+h1,
+h2,
+h3 {
+    color: $rosa;
 }
 
 h1 {
@@ -165,43 +181,49 @@ h1 {
 }
 
 h2 {
-	font-size: $font-h2;
+    font-size: $font-h2;
     font-weight: $bold;
 }
 
 h3 {
-	font-size: $font-h3;
+    font-size: $font-h3;
     font-weight: $bold;
 }
 
 p {
-	line-height: $font-line-p;
+    line-height: $font-line-p;
 }
 
-.sobreMi span{
+.sobreMi span {
     color: $acuamarina;
     font-weight: $bold;
 }
 
 .indexNoticiasArticulos {
     background-color: $negro;
+
     .card-img-top:hover {
         animation: pulse;
         animation-duration: 0.75s;
     }
+
     .card-title {
         color: $rosa;
         font-weight: $bold;
+
         &:hover {
             color: $gris-oscuro
         }
     }
+
     .autor {
         font-size: $font-autor;
     }
+
     .card-body .card-text a {
         color: #02bebc;
         font-weight: 700;
+
         &:hover {
             color: #3f3f3f
         }
@@ -211,10 +233,11 @@ p {
 @mixin boton {
     margin-bottom: 20px;
     background-color: $gris-oscuro;
-    border-color:$gris-oscuro;
+    border-color: $gris-oscuro;
     color: $acuamarina;
     font-weight: $bold;
     transition: all 250ms ease-out;
+
     &:hover {
         background-color: $gris-oscuro;
         border-color: $gris-oscuro;
@@ -222,7 +245,8 @@ p {
         box-shadow: 0 0 10px 0 $acuamarina;
         transform: scale(1.1);
     }
-    &:focus{
+
+    &:focus {
         background-color: $gris-oscuro !important;
         border-color: $gris-oscuro !important;
         color: $acuamarina !important;
@@ -234,70 +258,90 @@ p {
     @include boton;
 }
 
-#mainNoticias h1, #mainArticulos h1, #mainCalendario h1, #mainResultados h1 {
-	margin: 35px;
+#mainNoticias h1,
+#mainArticulos h1,
+#mainCalendario h1,
+#mainResultados h1 {
+    margin: 35px;
 }
 
-#mainResultados ol, #mainResultados h3 {
-	margin-left: 20px;
+#mainResultados ol,
+#mainResultados h3 {
+    margin-left: 20px;
 }
 
-.textoDer, .textoIzq {
-	width: $ancho-100;
+.textoDer,
+.textoIzq {
+    width: $ancho-100;
     margin-top: 30px;
     margin-bottom: 50px;
+
     h3 {
         margin-left: 15px;
     }
+
     .texto {
         width: $ancho-97;
-	    text-align: justify;
-	    margin: 20px;
-        .fotoFuenteDer, .fotoFuenteIzq {
+        text-align: justify;
+        margin: 20px;
+
+        .fotoFuenteDer,
+        .fotoFuenteIzq {
             width: 50%;
             margin: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
+
             h5 {
                 margin: 10px 15px 0 15px;
             }
         }
+
         .fotoFuenteDer {
             float: right;
-            justify-content:right;
+            justify-content: right;
         }
+
         .fotoFuenteIzq {
             float: left;
-            justify-content:left;
+            justify-content: left;
         }
-        .fuenteAutor{
+
+        .fuenteAutor {
             margin-top: 0;
             margin-bottom: 0;
             font-size: $font-autor;
             font-weight: $regular;
         }
+
         p {
             margin: 20px;
         }
-        .fotoGdeDer, .fotoGdeIzq {
+
+        .fotoGdeDer,
+        .fotoGdeIzq {
             width: $ancho-95;
-	        height: auto;
+            height: auto;
         }
+
         a {
             text-decoration: none;
             font-weight: $bold;
             color: $acuamarina;
+
             &:hover {
                 color: $gris-oscuro;
             }
         }
+
         span {
             color: $acuamarina;
             font-weight: $regular;
         }
+
         .lista {
-            list-style:inside;
+            list-style: inside;
         }
     }
 }
@@ -307,42 +351,52 @@ p {
         text-align: end;
         margin-right: 15px;
     }
-}    
+}
 
-.textoDer .texto .fuenteAutor  {
+.textoDer .texto .fuenteAutor {
     text-align: end;
     margin-right: 15px;
 }
 
-.pre, .campeonatos {
-	color: $acuamarina;
-	font-weight: $regular;
-	margin-bottom: 10px;
+.pre,
+.campeonatos {
+    color: $acuamarina;
+    font-weight: $regular;
+    margin-bottom: 10px;
 }
 
 .campeonatos {
     a {
-	text-decoration: none;
-	color: $acuamarina;
+        text-decoration: none;
+        color: $acuamarina;
+
         &:hover {
             color: $gris-oscuro;
         }
     }
+
     li {
         list-style: none;
         margin-left: 20px;
         line-height: 1.5em;
     }
 }
-#mainCalendario, #mainResultados {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-    h1, ol, h3 {
+
+#mainCalendario,
+#mainResultados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1,
+    ol,
+    h3 {
         align-self: flex-start;
     }
-    .pilotos, .constructores {
+
+    .pilotos,
+    .constructores {
         margin-left: 35px;
     }
 }
@@ -350,33 +404,37 @@ p {
 /* Tablas */
 
 thead {
-	color: $acuamarina;
-	font-weight: $bold;
+    color: $acuamarina;
+    font-weight: $bold;
 }
 
 .calendarioTabla {
-	table-layout: auto;
-	width: $ancho-70;
-	border-collapse: collapse;
-	background-color: $gris-dark;
-	border: 3px solid $gris-oscuro;
-	margin: 20px;
+    table-layout: auto;
+    width: $ancho-70;
+    border-collapse: collapse;
+    background-color: $gris-dark;
+    border: 3px solid $gris-oscuro;
+    margin: 20px;
     padding: 20px;
-	font-size: $font-tabla;
-	text-align: center;
+    font-size: $font-tabla;
+    text-align: center;
+
     img {
         width: $ancho-100;
     }
+
     tr {
         .item {
             width: 5%;
             padding: 1%;
 
         }
+
         .band {
             width: 10%;
             padding: 1%;
         }
+
         .fecha {
             width: 30%;
             padding: 2%;
@@ -384,30 +442,36 @@ thead {
     }
 }
 
-.pilotosTabla, .construcTabla {
-	table-layout: auto;
-	border-collapse:collapse;
-	background-color: $gris-dark;
-	border: 3px solid $gris-oscuro;
-	margin: 20px;
-	font-size: $font-tabla;
-	text-align: center;
+.pilotosTabla,
+.construcTabla {
+    table-layout: auto;
+    border-collapse: collapse;
+    background-color: $gris-dark;
+    border: 3px solid $gris-oscuro;
+    margin: 20px;
+    font-size: $font-tabla;
+    text-align: center;
+
     td {
         width: 3%;
         padding: 2px;
+
         img {
             width: $ancho-80/2;
         }
     }
+
     .banderas {
-        img  {
-        width: $ancho-100;
+        img {
+            width: $ancho-100;
         }
     }
 }
+
 .pilotosTabla {
     width: $ancho-95;
-    .equipo{
+
+    .equipo {
         width: 10%;
     }
 }
@@ -416,21 +480,25 @@ thead {
     width: $ancho-80;
 }
 
-.pilotosTabla tfoot, .construcTabla tfoot {
-	text-align: left;
+.pilotosTabla tfoot,
+.construcTabla tfoot {
+    text-align: left;
 }
 
 /* Formulario */
 #contacto {
-	padding-top: 100px;
+    padding-top: 100px;
+
     .contacto {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+
         h3 {
             padding-bottom: 20px;
         }
+
         .fotoContacto img {
             width: $ancho-100;
             margin-top: 50px;
@@ -439,14 +507,17 @@ thead {
             border-radius: 20%;
             background-color: $gris-oscuro
         }
+
         textarea {
             resize: none;
         }
+
         .btn-primary {
             @include boton;
             margin-bottom: 30px;
         }
     }
+
     form {
         margin-top: 20px;
     }
@@ -455,46 +526,49 @@ thead {
 /* Footer */
 
 #grillaFooter {
-	width: $ancho-100;
-	background: $negro;
-	background: $back-navbar-footer;
-	border-top: 4px $rosa solid;
-	border-bottom: 4px $rosa solid;
+    width: $ancho-100;
+    background: $negro;
+    background: $back-navbar-footer;
+    border-top: 4px $rosa solid;
+    border-bottom: 4px $rosa solid;
     display: grid;
-	grid-template-areas: 
-	"redesSociales1 icono redesSociales2"
-	;
-	grid-template-rows: 150px;
-	grid-template-columns: $ancho-100/4 auto $ancho-100/4;
-	justify-items: center;
-	align-items: center;
+    grid-template-areas:
+        "redesSociales1 icono redesSociales2"
+    ;
+    grid-template-rows: 150px;
+    grid-template-columns: $ancho-100/4 auto $ancho-100/4;
+    justify-items: center;
+    align-items: center;
 }
 
 .redesSociales1 {
-	grid-area: redesSociales1;
+    grid-area: redesSociales1;
     grid-row: 1;
     grid-column: 1;
 }
 
 .redesSociales2 {
-	grid-area: redesSociales2;
+    grid-area: redesSociales2;
     grid-row: 1;
     grid-column: 3;
 }
 
 .redesSociales1 .redesSociales2 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.redesSociales1 a, .redesSociales2 a {
+.redesSociales1 a,
+.redesSociales2 a {
     text-decoration: none;
+
     svg {
         margin: 0 20px 0 20px;
         width: 45px;
-        &:hover{
+
+        &:hover {
             fill: $rosa;
             animation: pulse;
             animation-duration: 1s;
@@ -503,17 +577,19 @@ thead {
 }
 
 .icono {
-	grid-area: icono;
+    grid-area: icono;
     grid-row: 1;
     grid-column: 2;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     img {
         width: $ancho-13;
         margin: 5px;
     }
+
     p {
         font-size: $font-footer;
         font-weight: $regular;

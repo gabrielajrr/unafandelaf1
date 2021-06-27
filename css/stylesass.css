@@ -175,7 +175,9 @@ body {
 }
 */
 /* Cuerpo de los HTML */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #f26cd1;
 }
 
@@ -264,31 +266,41 @@ p {
           box-shadow: 0 0 10px 0 #02bebc !important;
 }
 
-#mainNoticias h1, #mainArticulos h1, #mainCalendario h1, #mainResultados h1 {
+#mainNoticias h1,
+#mainArticulos h1,
+#mainCalendario h1,
+#mainResultados h1 {
   margin: 35px;
 }
 
-#mainResultados ol, #mainResultados h3 {
+#mainResultados ol,
+#mainResultados h3 {
   margin-left: 20px;
 }
 
-.textoDer, .textoIzq {
+.textoDer,
+.textoIzq {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
-.textoDer h3, .textoIzq h3 {
+.textoDer h3,
+.textoIzq h3 {
   margin-left: 15px;
 }
 
-.textoDer .texto, .textoIzq .texto {
+.textoDer .texto,
+.textoIzq .texto {
   width: 97%;
   text-align: justify;
   margin: 20px;
 }
 
-.textoDer .texto .fotoFuenteDer, .textoDer .texto .fotoFuenteIzq, .textoIzq .texto .fotoFuenteDer, .textoIzq .texto .fotoFuenteIzq {
+.textoDer .texto .fotoFuenteDer,
+.textoDer .texto .fotoFuenteIzq,
+.textoIzq .texto .fotoFuenteDer,
+.textoIzq .texto .fotoFuenteIzq {
   width: 50%;
   margin: 20px;
   display: -webkit-box;
@@ -303,56 +315,70 @@ p {
           align-items: center;
 }
 
-.textoDer .texto .fotoFuenteDer h5, .textoDer .texto .fotoFuenteIzq h5, .textoIzq .texto .fotoFuenteDer h5, .textoIzq .texto .fotoFuenteIzq h5 {
+.textoDer .texto .fotoFuenteDer h5,
+.textoDer .texto .fotoFuenteIzq h5,
+.textoIzq .texto .fotoFuenteDer h5,
+.textoIzq .texto .fotoFuenteIzq h5 {
   margin: 10px 15px 0 15px;
 }
 
-.textoDer .texto .fotoFuenteDer, .textoIzq .texto .fotoFuenteDer {
+.textoDer .texto .fotoFuenteDer,
+.textoIzq .texto .fotoFuenteDer {
   float: right;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
 }
 
-.textoDer .texto .fotoFuenteIzq, .textoIzq .texto .fotoFuenteIzq {
+.textoDer .texto .fotoFuenteIzq,
+.textoIzq .texto .fotoFuenteIzq {
   float: left;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
 }
 
-.textoDer .texto .fuenteAutor, .textoIzq .texto .fuenteAutor {
+.textoDer .texto .fuenteAutor,
+.textoIzq .texto .fuenteAutor {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 0.9rem;
   font-weight: 400;
 }
 
-.textoDer .texto p, .textoIzq .texto p {
+.textoDer .texto p,
+.textoIzq .texto p {
   margin: 20px;
 }
 
-.textoDer .texto .fotoGdeDer, .textoDer .texto .fotoGdeIzq, .textoIzq .texto .fotoGdeDer, .textoIzq .texto .fotoGdeIzq {
+.textoDer .texto .fotoGdeDer,
+.textoDer .texto .fotoGdeIzq,
+.textoIzq .texto .fotoGdeDer,
+.textoIzq .texto .fotoGdeIzq {
   width: 95%;
   height: auto;
 }
 
-.textoDer .texto a, .textoIzq .texto a {
+.textoDer .texto a,
+.textoIzq .texto a {
   text-decoration: none;
   font-weight: 700;
   color: #02bebc;
 }
 
-.textoDer .texto a:hover, .textoIzq .texto a:hover {
+.textoDer .texto a:hover,
+.textoIzq .texto a:hover {
   color: #3f3f3f;
 }
 
-.textoDer .texto span, .textoIzq .texto span {
+.textoDer .texto span,
+.textoIzq .texto span {
   color: #02bebc;
   font-weight: 400;
 }
 
-.textoDer .texto .lista, .textoIzq .texto .lista {
+.textoDer .texto .lista,
+.textoIzq .texto .lista {
   list-style: inside;
 }
 
@@ -366,7 +392,8 @@ p {
   margin-right: 15px;
 }
 
-.pre, .campeonatos {
+.pre,
+.campeonatos {
   color: #02bebc;
   font-weight: 400;
   margin-bottom: 10px;
@@ -387,7 +414,8 @@ p {
   line-height: 1.5em;
 }
 
-#mainCalendario, #mainResultados {
+#mainCalendario,
+#mainResultados {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,12 +431,20 @@ p {
           align-items: center;
 }
 
-#mainCalendario h1, #mainCalendario ol, #mainCalendario h3, #mainResultados h1, #mainResultados ol, #mainResultados h3 {
+#mainCalendario h1,
+#mainCalendario ol,
+#mainCalendario h3,
+#mainResultados h1,
+#mainResultados ol,
+#mainResultados h3 {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
 
-#mainCalendario .pilotos, #mainCalendario .constructores, #mainResultados .pilotos, #mainResultados .constructores {
+#mainCalendario .pilotos,
+#mainCalendario .constructores,
+#mainResultados .pilotos,
+#mainResultados .constructores {
   margin-left: 35px;
 }
 
@@ -449,7 +485,8 @@ thead {
   padding: 2%;
 }
 
-.pilotosTabla, .construcTabla {
+.pilotosTabla,
+.construcTabla {
   table-layout: auto;
   border-collapse: collapse;
   background-color: #242222;
@@ -459,16 +496,19 @@ thead {
   text-align: center;
 }
 
-.pilotosTabla td, .construcTabla td {
+.pilotosTabla td,
+.construcTabla td {
   width: 3%;
   padding: 2px;
 }
 
-.pilotosTabla td img, .construcTabla td img {
+.pilotosTabla td img,
+.construcTabla td img {
   width: 40%;
 }
 
-.pilotosTabla .banderas img, .construcTabla .banderas img {
+.pilotosTabla .banderas img,
+.construcTabla .banderas img {
   width: 100%;
 }
 
@@ -484,7 +524,8 @@ thead {
   width: 80%;
 }
 
-.pilotosTabla tfoot, .construcTabla tfoot {
+.pilotosTabla tfoot,
+.construcTabla tfoot {
   text-align: left;
 }
 
@@ -614,16 +655,19 @@ thead {
           align-items: center;
 }
 
-.redesSociales1 a, .redesSociales2 a {
+.redesSociales1 a,
+.redesSociales2 a {
   text-decoration: none;
 }
 
-.redesSociales1 a svg, .redesSociales2 a svg {
+.redesSociales1 a svg,
+.redesSociales2 a svg {
   margin: 0 20px 0 20px;
   width: 45px;
 }
 
-.redesSociales1 a svg:hover, .redesSociales2 a svg:hover {
+.redesSociales1 a svg:hover,
+.redesSociales2 a svg:hover {
   fill: #f26cd1;
   -webkit-animation: pulse;
           animation: pulse;
